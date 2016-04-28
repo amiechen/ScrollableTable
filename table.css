@@ -1,0 +1,49 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  min-width: 1200px;
+}
+.authenticatedContent {
+  position: relative;
+  overflow: auto;
+}
+.top{
+  position: relative;
+  height: 80px;
+  background-color: #505050;
+  z-index: 2;
+}
+
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 80px;
+  background: #dedede;
+  z-index: 1;
+}
+
+.table-container {
+    overflow: auto;
+    background-color: #bdbbbb;
+    float: left;
+    width: calc(100% - 300px);
+    padding-left: 80px;
+}
+
+.sidebar {
+  width: 300px;
+  background-color: #dedede;
+  position: absolute;
+  left: calc(100% - 300px);
+  bottom: 0;
+  top: 0;
+}
+
+h1 {
+    text-align: center;
+}
